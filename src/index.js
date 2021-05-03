@@ -194,5 +194,3 @@ window.onload = function() {
     createKey();
     changeTheme(window.sessionStorage.getItem('theme'));
 };
-
-console.log('hello!');
