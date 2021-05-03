@@ -20,7 +20,7 @@ class Measurements {
     /**
      * @method BMIcalc()
      * @summary BMI Calculation Function
-     * @returns {Number} BMI of constructed person.
+     * @returns {Number} BMI of Object.Measurements
      */
 
     BMIcalc() {
@@ -31,5 +31,3 @@ class Measurements {
         return this.BMIcalc();
     }
 }
-
-module.exports = Measurements

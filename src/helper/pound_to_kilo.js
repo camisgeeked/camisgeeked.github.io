@@ -10,5 +10,3 @@ function poundToKilo(weightInput) {
 
     return weightInKG;
 }
-
-module.exports = poundToKilo;

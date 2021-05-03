@@ -10,5 +10,3 @@ function inchToMeter(heightInput) {
 
     return heightInM;
 }
-
-module.exports = inchToMeter;

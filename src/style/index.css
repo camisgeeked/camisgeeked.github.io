@@ -1,0 +1,45 @@
+/* "Body Mass Index Calculator" header */
+
+h1 {
+    border: 0 px none;
+}
+
+
+/* Results portion (Body Mass Index: & Classification:) */
+
+#results {
+    border: 0 px none;
+    justify-content: center;
+}
+
+body.light {
+    background-color: #fff;
+}
+
+h1.light {
+    color: #000;
+}
+
+p.light {
+    color: #000;
+}
+
+body.dark {
+    background-color: #000;
+}
+
+h1.dark {
+    color: #fff;
+}
+
+p.dark {
+    color: #fff;
+}
+
+p2.dark {
+    color: #fff;
+}
+
+.menu a {
+    color: red;
+}
