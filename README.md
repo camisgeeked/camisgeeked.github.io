@@ -12,6 +12,7 @@ Simple BMI Calculator using the imperial system.  Input your height in inches an
 1. Upon the button being pressed, 2 functions are called.
    1. `getBMI`
 ```js
+   function getBMI() {
 
     const measurements = new Measurements(poundToKilo(weightInput.value), inchToMeter(heightInput.value));
 
@@ -19,6 +20,7 @@ Simple BMI Calculator using the imperial system.  Input your height in inches an
 }
 ```
    1. `defineBMI`
+```js
 function defineBMI() {
 
     let BMI = getBMI();
