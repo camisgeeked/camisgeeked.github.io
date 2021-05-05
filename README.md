@@ -9,8 +9,9 @@ Simple BMI Calculator using the imperial system.  Input your height in inches an
 ### How does it work?
 
 1. Once the end user has inputted their information to the 2 forms in `index.html`, they will press the "Calculate!" button.
-1. Upon the button being pressed, 2 functions are called.
-   1. `getBMI`
+2. Upon the button being pressed, 2 functions are called.
+
+`getBMI()`
 ```js
    function getBMI() {
 
@@ -19,7 +20,8 @@ Simple BMI Calculator using the imperial system.  Input your height in inches an
     return measurements.BMI;
 }
 ```
-   1. `defineBMI`
+
+`defineBMI()`
 ```js
 function defineBMI() {
 
