@@ -93,3 +93,33 @@ h2.dark {
     text-align: center;
     color: #fff;
 }
+
+.twitter-tweet {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#name.light {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#className.light {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#name.dark {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#className.dark {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
