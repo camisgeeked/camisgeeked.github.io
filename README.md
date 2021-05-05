@@ -38,7 +38,45 @@ function defineBMI() {
 }
 ```
 
-These functions essentially create a new Object (Measurements) with the user inputted forms and use helper functions to convert the imperial units to metric for easier calculation as seen below:
+These functions essentially create a new Object (Measurements) via a constructor with the user inputted forms: 
+
+```js
+/**
+ * @class
+ * @classdesc Creates a new person in the workspace to calculate a BMI for.
+ */
+
+class Measurements {
+
+    /**
+     * @constructor
+     * @param {Number} weight Weight of given person.
+     * @param {Number} height Height of given person.
+     * @summary Defining height and weight measurements.
+     */
+
+    constructor(weight, height) {
+        this.weight = weight;
+        this.height = height;
+    }
+
+    /**
+     * @method BMIcalc()
+     * @summary BMI Calculation Function
+     * @returns {Number} BMI of Object.Measurements
+     */
+
+    BMIcalc() {
+        return Math.round(this.weight / Math.pow(this.height, 2));
+    }
+
+    get BMI() {
+        return this.BMIcalc();
+    }
+}
+```
+
+In addition to the above, these are helper functions to convert the imperial units to metric for easier calculation as seen below:
 
 `inchToMeter()`
 ```js
