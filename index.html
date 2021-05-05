@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BMI Calculator</title>
 
-    <!-- Referencing JavaScript and Stylesheet -->
+
     <script src="../src/helper/inch_to_meter.js"></script>
     <script src="../src/helper/pound_to_kilo.js"></script>
     <script src="../src/static/measurements.js"></script>
@@ -16,7 +16,7 @@
 </head>
 
 <body class="light" id="body">
-    <!-- Header of Page -->
+
     <h1 class="light" id="header">Body Mass Index Calculator</h1>
 
     <nav id="menu">
@@ -26,7 +26,7 @@
     </nav>
     <br/>
     <div><br/></div>
-    <!-- User Inputs for Calculation -->
+    <!-- Forms for input -->
     <div id="stuff">
         <div class="light" id="inputs">
             <span class="light">Height (in):</span>
@@ -38,17 +38,16 @@
             <input style="display: block" type="number" id="weightInput" />
         </div>
         <br/>
-        <!-- Initiates Javascript function to calculate BMI and show weight classification -->
+
         <button class="light" id="calculate" onclick="defineBMI(); defineClassification();">Calculate!</button>
         <button class="light" id="change" onclick="triggerChangeTheme();">Change Theme!</button>
 
-        <!-- Waits for input, then changes when BMI is available -->
+
         <div class="light" id="results">
             <p class="light">Body Mass Index: <span id="bmiOut">Waiting for input..</span></p>
             <p class="light">Classification: <span id="classOut">Waiting for input..</span></p2>
         </div>
 
-        <!-- Disclaimer -->
         <p class="light" id="disclaimer">Please input the correct units in order to recieve a valid response.</p>
     </div>
 </body>
