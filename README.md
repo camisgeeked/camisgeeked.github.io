@@ -11,9 +11,24 @@ Simple BMI Calculator using the imperial system.  Input your height in inches an
 1. Once the end user has inputted their information to the 2 forms in `index.html`, they will press the "Calculate!" button.
 1. Upon the button being pressed, 2 functions are called.
    1. `getBMI`
-      1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-   3. `defineBMI`
+```js
+
+    const measurements = new Measurements(poundToKilo(weightInput.value), inchToMeter(heightInput.value));
+
+    return measurements.BMI;
+}
+```
+   1. `defineBMI`
+function defineBMI() {
+
+    let BMI = getBMI();
+    let bmiOut = document.getElementById("bmiOut");
+
+    if (isNaN(BMI)) {
+        bmiOut.textContent = "Please input valid height/weight.";
+    } else {
+        bmiOut.textContent = BMI;
+        console.log("BMI calculated and printed.")
+    }
+}
+```
