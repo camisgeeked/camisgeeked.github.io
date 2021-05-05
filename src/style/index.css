@@ -69,3 +69,57 @@ button {
     border-radius: 5px;
     width: 10%;
 }
+
+#embed {
+    height: 10px;
+    width: 10px;
+    margin: auto;
+    padding: 35%;
+}
+
+#about {
+    margin: auto;
+    padding: 60px;
+    text-align: center;
+}
+
+#bmi-formula {
+    height: 30%;
+    width: 30%;
+}
+
+h2.dark {
+    padding: 60 px;
+    text-align: center;
+    color: #fff;
+}
+
+.twitter-tweet {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#name.light {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#className.light {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#name.dark {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#className.dark {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
