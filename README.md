@@ -36,3 +36,26 @@ function defineBMI() {
     }
 }
 ```
+
+These functions essentially create a new Object (Measurements) with the user inputted forms and use helper functions to convert the imperial units to metric for easier calculation as seen below:
+
+`inchToMeter(heightInput)`
+```js
+function inchToMeter(heightInput) {
+    var heightInM = heightInput * 0.0254;
+
+    return heightInM;
+}
+```
+
+`poundToKilo(weightInput)`
+
+```js
+function poundToKilo(weightInput) {
+    var weightInKG = weightInput * 0.45359237;
+
+    return weightInKG;
+}
+```
+
+Finally, we have the BMI and the `defineBMI()` function changes the innerHTML of the results element to the returned result of `getBMI()`
