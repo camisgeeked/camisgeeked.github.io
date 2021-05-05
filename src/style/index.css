@@ -123,3 +123,14 @@ h2.dark {
     padding: 20px;
     text-align: center;
 }
+
+.github-card {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
